@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'FiraGO';
+    src: url("./fonts/FiraGO-Regular.ttf");
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.table1{
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 16px;
+    width: 1223px;
+}
+
+.table1 > thead > tr{
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    color: #000000;
+    text-align: left;
+}
+
+.table1 > tbody > tr{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+    color: #000000;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding-left: 24px;
+
+    width: 280px;
+    height: 50px;
+}
+
+.search_button{
+    background: #FFDD04;
+    border-radius: 10px;
+    border: none;
+    width: 141px;
+    height: 50px;
+    cursor: pointer;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.for_button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.create_button{
+    background: #FFDD04;
+    border-radius: 10px;
+    border: none;
+    width: 141px;
+    height: 40px;
+    cursor: pointer;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.table2{
+    border-collapse: collapse;
+    font-size: 16px;
+    width: 1248px;
+    margin-top: 29px;
+}
+
+.table2 > thead > tr{
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    text-align: left;
+}
+
+.action{
+    text-align: center;
+}
+
+.table2 > tbody > tr{
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+    color: #000000;
+}
+
+th{
+    padding: 23px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+td{
+    padding: 23px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.delete_button{
+    cursor: pointer;
+    background: #FF8271;
+    border-radius: 10px;
+    border: none;
+    width: 93px;
+    height: 33px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.edit_button{
+    cursor: pointer;
+    background: #FFDD04;
+    border-radius: 10px;
+    border: none;
+    width: 93px;
+    height: 33px;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
