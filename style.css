@@ -25,6 +25,18 @@ h1{
     width: 1223px;
 }
 
+#input1{
+    width: 359px;
+}
+
+#input2{
+    width: 266px;
+}
+
+#input3{
+    width: 217px;
+}
+
 .table1 > thead > tr{
     background-color: #FFFFFF;
     border: 1px solid #EDEDED;
@@ -47,6 +59,10 @@ input{
     width: 280px;
     height: 50px;
     font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 ::placeholder{
@@ -68,7 +84,7 @@ input{
 
     font-family: 'FiraGO';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
@@ -90,7 +106,7 @@ input{
 
     font-family: 'FiraGO';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
@@ -99,7 +115,7 @@ input{
 .table2{
     border-collapse: collapse;
     font-size: 16px;
-    width: 1248px;
+    width: 1253px;
     margin-top: 29px;
 }
 
@@ -141,6 +157,11 @@ td{
     color: #000000;
 }
 
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
 .delete_button{
     cursor: pointer;
     background: #FF8271;
@@ -148,10 +169,12 @@ td{
     border: none;
     width: 93px;
     height: 33px;
+    padding: 0px;
+    margin-right: 6px;
 
     font-family: 'FiraGO';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
@@ -164,10 +187,11 @@ td{
     border: none;
     width: 93px;
     height: 33px;
+    padding: 0px;
 
     font-family: 'FiraGO';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
